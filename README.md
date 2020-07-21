@@ -1,6 +1,6 @@
 # OuterMostSurfaceExtraction
 This project presents a algorithm to segment the outer-most surface of head in CT/MRI 3D medical image.
-The algorithm is built based on itk, and is encapsulated as a class of itk filter. You can add the files (itkOuterMostSurfaceExtractionFilter.h and itkOuterMostSurfaceExtractionFilter.hxx) to your project, and call the function in itk style easily.
+The algorithm is built based on itk 4.13.1, and is encapsulated as a class of itk filter. You can add the files (itkOuterMostSurfaceExtractionFilter.h and itkOuterMostSurfaceExtractionFilter.hxx) to your project, and call the function in itk style easily.
 
 # OverView of The Algorithm
 step0: Preprocesse the image to normalize the distribution of the value of voxels.
